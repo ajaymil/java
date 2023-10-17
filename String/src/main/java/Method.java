@@ -55,10 +55,6 @@ public class Method {
         String myStr2 = "";
         myStr2 = myStr2.copyValueOf(myStr1, 0, 5);
         System.out.println(myStr2);
-        //*********************************replace all
-   String v1="The Java String class replaceAll() method returns a string replacing all the sequence of characters matching regex and replacement string.";
-        System.out.println(v1.replaceAll("string","array"));
-        //****************empty *********************************
-    System.out.println(myStr2.isEmpty());
+        //*********************************
     }
 }
